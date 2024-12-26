@@ -1,0 +1,307 @@
+@media screen and (min-width: 30rem) and (max-width: 1024px) {
+    .container{
+        display: flex;
+        width: 768px;
+        height: 110px;
+        padding-top: 1rem;
+        justify-content: space-around;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 63px 80px 121px;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .logo1{
+        grid-column: 1/4;
+        grid-row: 1;
+        width:8rem;
+    }
+    .about, .stories, .news-events{
+        grid-row: 2;
+    }
+    .about{
+        grid-column: 1;
+        align-self: center;
+    }
+    .stories{
+        grid-column: 2;
+    }
+    .news-events{
+        grid-column: 3;
+        align-self: center;
+    }
+    .donate {
+        width: 140px;
+        margin-top: 1rem;
+      }
+    .container2{
+        width: 768px;;
+        background-image: url(Images/annie-spratt-135307-unsplash/annie-spratt-135307-unsplash.png);
+        background-size: cover;
+    }
+    .cenitem {
+        height: 309px;
+        width:640px;
+        margin-top: 30px;
+        grid-template-rows:40px ;
+        margin-left: 4rem;
+      }
+    .item1{
+        justify-self: start;
+        margin-left: 4rem;
+    }
+    .item2{
+        width: 512px;
+        height: 138px;
+        font-size: 36px;
+        
+    }
+    .item3{
+        width: 376px;
+        height: 16px;
+        justify-self: start;
+        margin-left: 5rem;
+    }
+    .item4{    
+        margin-top: 11.25%;
+    }
+    .container4{
+        width: 768px;
+    }
+    .uprsection{
+        grid-template-columns: 256px 256px;
+    }
+    .lwrsection{
+        grid-template-columns: 256px 256px;
+    }
+    .take-action{
+        margin-top:-60px;
+    }
+    .container5{
+        width: 48rem;
+    }
+    .element{
+        width: 48rem;
+    }
+    .e-item1 {
+        align-self: start;
+        margin-left: 4rem;
+    }
+    .e-item2{
+        height: 140px;
+        width: 640px;
+        font-size: 36px;
+        text-align: left;
+        margin-bottom: 90px;
+    }
+    .e-item3, .e-item7, .e-item9{
+        height: 201px;
+        width: 288px;
+        background-repeat: no-repeat;
+        margin-left: 2rem;
+    }
+    .e-item4{
+        height: 50px;
+        width: 144px;
+    }
+    .con2of5{
+        width: 640px;
+        height: 280px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container6{
+        width: 768px;
+        background-image: url(Images/Did\ you\ know\ background\ tab.png);
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .test{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+        margin-top: -30px;
+    }
+    .con6item1{
+        height: 228px;
+        width: 193px;
+    }
+    .hitem{
+        row-gap: 50px;
+    }
+    .con2of5-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 50px 1fr;
+
+    }
+    .e-item3, .e-item7, .e-item9{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .e-item4{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: left;
+    }
+    .e-item5{
+        grid-column: 2/3;
+        grid-row: 2/4;
+        align-self: start;
+        text-align: left;
+    }
+    .e-item6, .e-item10{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-self: start;
+        justify-self: center;
+    }
+    .container7{
+        width: 768px;
+        height: 999px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 4rem;
+    }
+    .con7-item2{
+        width: 576px;
+        height: 568px;
+        background-image: url(Images/lady-baby\ tab.png);
+    }
+    .con7-item3{
+        width:576px;
+        height: 287px;
+        row-gap: 30px;
+        margin-top: -45px;
+        margin-left: 130px;
+    }
+    .con7-item4 {
+        margin-right: 300px;
+    }
+    .i1{
+        height: 106px;
+        width: 489px;
+    }
+    .i2{
+        height: 14px;
+        width: 287px;
+    } 
+    .container8{
+        width: 768px;
+        height: 1225px;
+    }
+    .con8-item1{
+        width: 518px;
+        height: 90px;
+    }
+    .con8-item2 {
+        align-self: end;
+        margin-right: 217px;
+    }
+    .con8-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .con8-item4{
+        height: 100px;
+        width: 216px;
+        font-size: 28px;
+    }
+    .con8-item3{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .con8-item5{
+        grid-column: 2/3;
+        grid-row: 2/4;
+        text-align: left;
+    }
+    .con8-item6{
+        grid-column: 2/3;
+        grid-row:3/4;
+        align-self: center;
+    }
+    /* .container8{
+        width: 768px;
+        height: 1225px;
+        display: grid;
+    }
+    .con8-item1{
+        width: 518px;
+        height: 90px;
+    }
+    .con8-item3{
+        height: 288px;
+        width: 288px;
+    }
+    .con8-item4{
+        width: 216px;
+        height: 100px;
+        font-size: 28px;
+    }
+    .con8-item5{
+        width: 280px;
+        height: 170px;
+    } */
+    .container9{
+        width: 768px;
+        height: 255px;
+    }
+    .con9-item1{
+        height: 59px;
+        width: 448px;
+    }
+    .con9-item2 input{
+        height: 40px;
+        width: 448px;
+    }
+    
+    .con-10-items2-2{
+        width: 126px;
+        height: 74px;
+    }
+    .con10-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 80px;
+    }
+    .con10-items1{
+        height: 50px;
+        width: 156px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .con10-items3{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .con10-item5{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .follow-link{
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .con10-items4{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .learn-more{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+
+}

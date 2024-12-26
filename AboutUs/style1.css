@@ -1,0 +1,163 @@
+@media screen and (min-width: 30rem) and (max-width: 1024px) {
+    .container{
+        display: flex;
+        width: 768px;
+        height: 110px;
+        padding-top: 1rem;
+        justify-content: space-around;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 63px 80px 121px;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .logo1{
+        grid-column: 1/4;
+        grid-row: 1;
+        width:8rem;
+    }
+    .about, .stories, .news-events{
+        grid-row: 2;
+    }
+    .about{
+        grid-column: 1;
+        align-self: center;
+    }
+    .stories{
+        grid-column: 2;
+    }
+    .news-events{
+        grid-column: 3;
+        align-self: center;
+    }
+    .donate {
+        width: 140px;
+        margin-top: 1rem;
+      }
+    .stopcilmate{
+        width: 768px;
+        background-image: url(Images/annie-spratt-427339-unsplashtab.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+    .stopcli-item2{
+        width: 640px;
+        height: 264px;
+    }
+    .stopcli-item2-2{
+        font-size: 28px;
+        width: 512px;
+        height: 141px;
+        text-align: left;
+    }
+    .stopcli-item2{
+        align-items: start;
+
+    }
+    .stopcli-item2-1{
+        margin-left: 2rem;
+    }
+    .stopcli-item2-2{
+        align-self: center;
+    }
+    .mission-value{
+        width: 768px;
+    }
+    .mission-item2{
+        width: 675px;
+        height: 100px;
+        text-align: left;
+    }
+    .mission-item1{
+        align-self:start;
+        margin-left: 45px;
+    }
+    .impact{
+        width: 768px;
+        height: 694px;
+    }
+    .impact-item2{
+        width: 648px;
+        height: 82px;
+        text-align: center;
+    }
+    .impact-item3{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 110px;
+    }
+    .item{
+        width: 288px;
+        column-gap: 60px;
+    }
+    .action{
+        width:768px;
+        align-items: start;
+        padding-left: 4rem;
+    }
+    .action-item1{
+        width: 512px;
+        height: 90px;
+        text-align: left;
+    }
+    .action-item2{
+        align-self: start;
+        margin-left: 2rem;
+    }
+    .container9{
+        width: 768px;
+        height: 255px;
+    }
+    .con9-item1{
+        height: 59px;
+        width: 448px;
+    }
+    .con9-item2 input{
+        height: 40px;
+        width: 448px;
+    }
+    .con-10-items2-2{
+        width: 126px;
+        height: 74px;
+    }
+    .con10-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 80px;
+    }
+    .con10-items1{
+        height: 50px;
+        width: 156px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .con10-items3{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .con10-item5{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .follow-link{
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .con10-items4{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .learn-more{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+}
