@@ -112,6 +112,7 @@ font-weight: bold;
     justify-content: space-around;
     height: 1000px;
     width: 376px;
+    /* padding: 2rem 4rem; */
     background-color:#354463;
 }
 .white-box{
@@ -134,11 +135,14 @@ font-weight: bold;
     font-size: 22px;
 }
 .mission-item3{
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
-    height: 691px;
-    width: 313px;
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 10px; */
+    gap: 2rem;
+    /* height: 691px;
+    width: 313px; */
     background-color: #354463;
     
 }
